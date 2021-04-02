@@ -81,3 +81,4 @@ else:
 # Print of result and rating
 print(f'Correct, you\'ve guessed the right number in {counter} guesses!')
 print(f'That\'s {rating}!')
+
