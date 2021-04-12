@@ -1,8 +1,6 @@
-# Import of module random
 import random
 
 
-# Function for check random number conditions
 def check_num(number):
     if len(str(number)) == len(set(str(number))) and str(number)[0] != 0:
         return True
@@ -10,7 +8,6 @@ def check_num(number):
         return False
 
 
-# Function for generating number in range
 def gen_num():
     while True:
         number = random.randint(1000, 9999)
